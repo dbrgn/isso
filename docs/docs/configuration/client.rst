@@ -19,6 +19,7 @@ preferably in the script tag which embeds the JS:
             data-isso-avatar-bg="#f0f0f0"
             data-isso-avatar-fg="#9abf88 #5698c4 #e279a3 #9163b6 ..."
             data-isso-vote="true"
+            data-isso-sorting="oldest"
             data-vote-levels=""
             src="/prefix/js/embed.js"></script>
 
@@ -124,6 +125,11 @@ For example, the value `"-5,5"` will cause each `isso-comment` to be given one o
 - `isso-vote-level-2` for scores of `5` and greater
 
 These classes can then be used to customize the appearance of comments (eg. put a star on popular comments)
+
+data-isso-sorting
+-----------------
+
+This can be set either to `oldest` (the default) or `newest`.
 
 data-isso-id
 ------------
